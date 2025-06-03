@@ -1,14 +1,8 @@
-import json
-import re
 import time
-from typing import Dict, List, Optional, Union
+from typing import Union
 
-import nltk
-import numpy as np
 import pandas as pd
 import requests
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
 
 
 def fetch_steam_reviews(
